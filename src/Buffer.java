@@ -7,7 +7,7 @@ public class Buffer {
 
     //Shared Variable
     private Queue<Integer> data;
-    public static final int MAX_SIZE = 10;
+    public static final int MAX_SIZE = 4;
     private ReentrantLock reentrantLock = new ReentrantLock();
 
     //Creating two conditions
