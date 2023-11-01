@@ -4,6 +4,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Buffer {
+    //This Class will act as a monitor
 
     //Shared Variable
     private Queue<Integer> data;
