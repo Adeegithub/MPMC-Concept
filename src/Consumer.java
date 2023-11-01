@@ -11,6 +11,7 @@ public class Consumer implements Runnable {
         for (int i = 0; i < 5; i++) {
             int item = buffer.getData();
             System.out.println(Thread.currentThread().getName()+ "Consumed " + item);
+//            buffer.printBuffer();
         }
     }
 }

@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4360fbe-7e5f-4471-bd8a-bfad83abdd59" name="Changes" comment="&quot;Initial Commit&quot;">
+    <list default="true" id="a4360fbe-7e5f-4471-bd8a-bfad83abdd59" name="Changes" comment="&quot;Included Comments&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Buffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Producer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +25,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="82931d79-a4bd-45b6-8e5a-b3a7209e1c09" />
+        <option name="url" value="https://github.com/Adeegithub/MPMC-Concept.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -81,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698861281795</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;Included Comments&quot;">
+      <created>1698861366613</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698861366613</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +123,7 @@
     <MESSAGE value="&quot;Initial Comment&quot;" />
     <MESSAGE value="&quot;2nd Comment&quot;" />
     <MESSAGE value="&quot;Initial Commit&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Initial Commit&quot;" />
+    <MESSAGE value="&quot;Included Comments&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Included Comments&quot;" />
   </component>
 </project>

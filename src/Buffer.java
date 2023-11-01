@@ -6,9 +6,9 @@ import java.util.concurrent.locks.ReentrantLock;
 public class Buffer {
     //This Class will act as a monitor
 
+    public static final int MAX_SIZE = 4;
     //Shared Variable
     private Queue<Integer> data;
-    public static final int MAX_SIZE = 4;
     private ReentrantLock reentrantLock = new ReentrantLock();
 
     //Creating two conditions
@@ -53,6 +53,15 @@ public class Buffer {
             notFull.signalAll();
             //produce data into the buffer
             this.data.offer(data);
+        } finally {
+            reentrantLock.unlock();
+        }
+    }
+
+    public void printBuffer() {
+        try {
+            reentrantLock.lock();
+            System.out.println("Buffer contents: " + data);
         } finally {
             reentrantLock.unlock();
         }

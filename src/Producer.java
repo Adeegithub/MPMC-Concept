@@ -11,6 +11,7 @@ public class Producer implements Runnable {
         for (int i = 0; i < 5; i++) {
             buffer.putData(i);
             System.out.println(Thread.currentThread().getName() + "Produced " + i);
+//            buffer.printBuffer();
         }
     }
 }
